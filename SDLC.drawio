@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="État actuel du SDLC" id="sdlc-diagram">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="axis-temps" value="⏰ Temps" style="rounded=1;fillColor=#222222;fontColor=#ffffff;fontSize=18;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="axis-cout" value="💲 Coût" style="rounded=1;fillColor=#222222;fontColor=#ffffff;fontSize=18;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="40" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="axis-insatisfaction" value="😞 Insatisfaction" style="rounded=1;fillColor=#222222;fontColor=#ffffff;fontSize=18;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="840" y="40" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-temps" style="rounded=1;fillColor=#d32f2f;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="320" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-cout" style="rounded=1;fillColor=#d32f2f;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="80" width="320" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="bar-insatisfaction" style="rounded=1;fillColor=#d32f2f;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="840" y="80" width="320" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="integration-dev" value="Intégrer les développeurs" style="rounded=1;fillColor=#2196f3;fontColor=#ffffff;fontSize=16;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="build-test" value="Construire et tester" style="rounded=1;fillColor=#2196f3;fontColor=#ffffff;fontSize=16;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mise-prod" value="Mettre en production" style="rounded=1;fillColor=#2196f3;fontColor=#ffffff;fontSize=16;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="verification" value="Vérifier" style="rounded=1;fillColor=#2196f3;fontColor=#ffffff;fontSize=16;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wikis" value="Wikis et connaissances institutionnelles&#xa;" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wikis-issue1" value="Longs temps d&#39;intégration des développeurs" style="rounded=1;fillColor=#ffe6cc;fontSize=11;strokeColor=#d79b00;whiteSpace=wrap;" parent="wikis" vertex="1">
+          <mxGeometry x="8.23529411764706" y="80" width="123.52941176470587" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wikis-issue2" value="Adoption lente des nouveaux services" style="rounded=1;fillColor=#ffe6cc;fontSize=11;strokeColor=#d79b00;whiteSpace=wrap;" parent="wikis" vertex="1">
+          <mxGeometry x="8.23529411764706" y="150" width="123.52941176470587" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ide" value="Environnements de développement intégrés&#xa;" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;whiteSpace=wrap;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="190" y="160" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ide-issue1" value="« Fonctionne sur ma machine »" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;whiteSpace=wrap;" parent="ide" vertex="1">
+          <mxGeometry x="7.65" y="84" width="114.71" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="code" value="Dépôts de code&#xa;GitHub" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="190" y="310" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="build" value="Build" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="360" y="160" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="build-issue1" value="Temps de construction lents" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="build" vertex="1">
+          <mxGeometry x="8.821875" y="52.50053571428571" width="132.35625000000002" height="11.57142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="build-issue2" value="Surcharge de maintenance" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="build" vertex="1">
+          <mxGeometry x="8.821875" y="30" width="132.35625000000002" height="12.857142857142858" as="geometry" />
+        </mxCell>
+        <mxCell id="securite-test" value="Tests de sécurité" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="360" y="260" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="securite-test-issue2" value="Manque de contexte pour la remédiation" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;whiteSpace=wrap;" parent="securite-test" vertex="1">
+          <mxGeometry x="8.821875" y="60" width="132.35625000000002" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="securite-test-issue3" value="Génération SBOM cloisonnée" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="securite-test" vertex="1">
+          <mxGeometry x="8.821875" y="29.69" width="132.35625000000002" height="20.31" as="geometry" />
+        </mxCell>
+        <mxCell id="securite-test-issue1" value="Intégré au CI/CD" style="rounded=1;fillColor=#d5e8d4;fontSize=11;strokeColor=#82b366;labelBackgroundColor=none;" parent="securite-test" vertex="1">
+          <mxGeometry x="8.821875000000023" y="110" width="132.35625000000002" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="artifact" value="Registres d&#39;artéfacts&#xa;" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="521.18" y="160" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="resilience-test" value="Tests de résilience" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="520" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="resilience-test-issue1" value="Outils de niche/OSS" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="resilience-test" vertex="1">
+          <mxGeometry x="9.41" y="30" width="141.18" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="resilience-test-issue2" value="Difficile de simuler des scénarios de panne" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;whiteSpace=wrap;" parent="resilience-test" vertex="1">
+          <mxGeometry x="9.41" y="70" width="141.18" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="gestion-infra" value="Gestion de l&#39;infrastructure&#xa;" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="720" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gestion-infra-issue1" value="Infra-as-code  gouvernée" style="rounded=1;fillColor=#d5e8d4;fontSize=11;strokeColor=#82b366;whiteSpace=wrap;" parent="gestion-infra" vertex="1">
+          <mxGeometry x="7.06" y="50" width="105.88" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="changement-notif" value="Gestion des changements et notifications&#xa;ServiceNow, Jira" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="850" y="160" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="changement-notif-issue1" value="Flux d&#39;approbation manuels" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;whiteSpace=wrap;" parent="changement-notif" vertex="1">
+          <mxGeometry x="6.47" y="70" width="97.06" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="migration-bd" value="Migrations de bases de données" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="720" y="290" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="migration-bd-issue1" value="Dépendances entre équipes" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;whiteSpace=wrap;" parent="migration-bd" vertex="1">
+          <mxGeometry x="7.058823529411765" y="45" width="105.88235294117648" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="deploiement" value="Déploiement" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="850" y="290" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="deploiement-issue1" value="Scripts lourds" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="deploiement" vertex="1">
+          <mxGeometry x="6.47" y="30" width="97.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="deploiement-issue2" value="Dépannage fastidieux" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;whiteSpace=wrap;" parent="deploiement" vertex="1">
+          <mxGeometry x="6.47" y="70" width="97.06" height="33.34" as="geometry" />
+        </mxCell>
+        <mxCell id="verification-bloc" value="Vérification&#xa;" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="160" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="verification-bloc-issue1" value="Manuelle" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="verification-bloc" vertex="1">
+          <mxGeometry x="9.411764705882353" y="64.07" width="141.1764705882353" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rollback" value="Retour arrière" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="290" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rollback-issue1" value="Correctif / manuel" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="rollback" vertex="1">
+          <mxGeometry x="9.411764705882353" y="43" width="141.1764705882353" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gouvernance" value="Gouvernance et sécurité" style="rounded=1;fillColor=#1976d2;fontColor=#ffffff;fontSize=16;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="420" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gestion-pipeline" value="Gestion des pipelines" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="460" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gestion-pipeline-issue1" value="Modèles réutilisables" style="rounded=1;fillColor=#d5e8d4;fontSize=11;strokeColor=#82b366;" parent="gestion-pipeline" vertex="1">
+          <mxGeometry x="10.43" y="30" width="219.13" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gestion-pipeline-issue2" value="Standards établis" style="rounded=1;fillColor=#d5e8d4;fontSize=11;strokeColor=#82b366;" parent="gestion-pipeline" vertex="1">
+          <mxGeometry x="10.43" y="70" width="219.13" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gestion-pipeline-issue3" value="Effort de maintenance modéré" style="rounded=1;fillColor=#ffe6cc;fontSize=11;strokeColor=#d79b00;" parent="gestion-pipeline" vertex="1">
+          <mxGeometry x="10.43" y="110" width="219.13" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-audit" value="Secrets, audit et conformité" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="320" y="460" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-audit-issue1" value="Traçabilité limitée" style="rounded=1;fillColor=#ffe6cc;fontSize=11;strokeColor=#d79b00;" parent="secrets-audit" vertex="1">
+          <mxGeometry x="10.43" y="30" width="219.13" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-audit-issue2" value="Application manuelle des politiques" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="secrets-audit" vertex="1">
+          <mxGeometry x="10.424782608695653" y="70" width="219.1304347826087" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="metriques" value="Métriques et analyses" style="rounded=1;fillColor=#1976d2;fontColor=#ffffff;fontSize=16;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="420" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="metriques-outils" value="Visibilité limitée et silos" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="600" y="460" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="metriques-outils-issue2" value="Rapports et tableaux de bord incomplets" style="rounded=1;fillColor=#ffe6cc;fontSize=11;strokeColor=#d79b00;" parent="metriques-outils" vertex="1">
+          <mxGeometry x="10.43" y="30" width="219.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="metriques-outils-issue3" value="Complexité accrue liée au nombre d&#39;outils utilisés du SDLC (cycle de développement des applications) " style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;whiteSpace=wrap;" parent="metriques-outils" vertex="1">
+          <mxGeometry x="10.43" y="80" width="219.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud" value="Ressources cloud" style="rounded=1;fillColor=#1976d2;fontColor=#ffffff;fontSize=16;fontStyle=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="880" y="420" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-outils" value="Inefficacités et coûts" style="rounded=1;fillColor=#444444;fontColor=#ffffff;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="880" y="460" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-outils-issue1" value="Coûts gonflés et infrastructure non mis à l&#39;échelle" style="rounded=1;fillColor=#ffe6cc;fontSize=11;strokeColor=#d79b00;" parent="cloud-outils" vertex="1">
+          <mxGeometry x="12.17" y="30" width="255.65" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-outils-issue2" value="Manque d&#39;automatisation des coûts" style="rounded=1;fillColor=#d32f2f;fontColor=#ffffff;fontSize=11;strokeColor=none;" parent="cloud-outils" vertex="1">
+          <mxGeometry x="12.17" y="90" width="255.65" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="T0ENBi7KzY1rVjGXJc7J-6" value="Intégré au CI/CD" style="rounded=1;fillColor=#d5e8d4;fontSize=11;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T0ENBi7KzY1rVjGXJc7J-8" value="Intégré au CI/CD" style="rounded=1;fillColor=#d5e8d4;fontSize=11;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530.5900000000001" y="195" width="141.18" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T0ENBi7KzY1rVjGXJc7J-9" value="Accessible à tous" style="rounded=1;fillColor=#d5e8d4;fontSize=11;strokeColor=#82b366;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530.59" y="230" width="141.18" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
